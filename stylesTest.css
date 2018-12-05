@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.global-container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.title-container {
+    background-image: url("mate/top.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.title-container-center {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.title-container__logo {
+    margin-bottom: 200px;
+}
+
+.title-container__text {
+    font-weight: bold;
+    color: #0a8aff;
+    font-size: 18px;
+}
+
+.title-container__info {
+
+    margin: 15px 0 20px 0;
+    font-size: 30px;
+    line-height: 1.3;
+}
+
+.title-container__info_bold {
+    font-weight: bold;
+}
+
+.title-container-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    max-width: 550px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.title-container-btn__text {
+    color: #FF823A;
+    font-weight: bold;
+    padding: 20px 0 10px 0;
+}
+
+.title-container-btn__btn {
+    background-color: #FF823A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.title-container__scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.title-container__figure {
+    margin-top: 5px;
+    border: 20px solid transparent;
+    border-top: 25px solid white;
+    margin-bottom: 20px;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-container__block-one {
+    background-image: url("mate/2nd section.png");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    width: 60%;
+}
+
+.main-container__play {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: black;
+    border-radius: 100%;
+    margin: 300px;
+    opacity: 0.5;
+}
+
+.main-container__play_arrow {
+    position: absolute;
+    margin: 80px 90px;
+    border: 25px solid transparent;
+    border-left: 40px solid white;
+    padding: 0;
+}
+
+.main-container__block-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #526273;
+    margin-left: 50px;
+
+}
+
+.main-container__block-two_title {
+    font-weight: bold;
+    margin-top: 70px;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+
+.main-container__block-two_info {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 20px;
+    margin: 40px 30px;
+}
+
+.main-container__block-two_info p:nth-child(7) {
+    margin-top: 35px;
+}
+
+.main-container-btn {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    background-color: #103A50;
+}
+
+@media screen and (max-width: 479px) {
+    .global-container {
+        width: 100%;
+    }
+
+    .title-container__text {
+        margin-left: 3%;
+    }
+
+    .title-container__info {
+        margin-left: 3%;
+    }
+
+    .main-container__block-two {
+        width: 100%;
+        margin-left: 1%;
+    }
+
+    .main-container-btn {
+        width: 100%;
+        margin-left: -5%;
+    }
+
+    .footer-container {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main-container__block-one {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 760px) {
+    .main-container__play {
+        display: flex;
+        position: relative;
+        width: 50%;
+        margin: 23%;
+    }
+
+    .main-container__play_arrow {
+        margin: 45%;
+    }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1250px) {
+    .main-container__play {
+        display: flex;
+        position: relative;
+        width: 25%;
+        margin: 38%;
+    }
+
+    .main-container__play_arrow {
+        margin: 35% 44%;
+    }
+}
