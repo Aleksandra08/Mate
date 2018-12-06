@@ -1,10 +1,10 @@
-### Тестовый проект
+### Test project
 ***
 # Landing page _"Webinar"_
 
- Ссылка на [GitHub Pages](https://aleksandra08.github.io/Mate/testMate.html)
- ## Структура проекта:
+ link to [GitHub Pages](https://aleksandra08.github.io/Mate/testMate.html)
+ ## Project structure:
  
- - mate (каталог изображений)
+ - mate (image catalog)
  - stylesTest.css
  - testMate.html
